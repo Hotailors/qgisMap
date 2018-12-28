@@ -1,0 +1,12 @@
+{
+  "layers": {
+    "countries": {
+      "src": "ne_110m_admin_0_countries_lakes.shp",
+      "filter": ["ISO_A2", "not in", ["AQ"]],
+      "attributes": {
+        "id": "ISO_A2",
+        "name": "NAME"
+      }
+    }
+  }
+}
