@@ -12,3 +12,6 @@ Kartograph requires config.json file were you can define options like 'attribute
 Execute following command from countries/ directory to generate .svg
 
 `kartograph config.json -o mymap.svg`
+
+
+Helpfull link: [A Guide To Building SVG Maps From Natural Earth Data](https://www.smashingmagazine.com/2015/09/making-svg-maps-from-natural-earth-data/)
